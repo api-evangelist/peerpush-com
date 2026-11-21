@@ -1,4 +1,4 @@
-# peerpush-com
+# PeerPush
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-peerpush-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://peerpush.com/
+PeerPush is a product discovery platform that connects builders and AI assistants with tools and services. It offers a structured directory where products are listed with use cases, audiences, platforms, and pricing, enabling both humans and AI systems to find and recommend relevant solutions. The platform provides an MCP server and public API for integration, supports community-driven promotion, and includes features like signals, deals, and a blog to keep users informed about new offerings and trends.
+
+**Areas:** Discovery · AI · Directory · Platform · Community
+
+## PeerPush on APIs.io
+
+Everything profiled for PeerPush is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/peerpush-com/](https://apis.io/providers/peerpush-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [PeerPush Alternatives API](https://apis.io/apis/peerpush-com/peerpush-com-alternatives-api/) — The Alternatives API from PeerPush — 1 operation(s) for alternatives.
+- [PeerPush Compare API](https://apis.io/apis/peerpush-com/peerpush-com-compare-api/) — The Compare API from PeerPush — 1 operation(s) for compare.
+- [PeerPush Discovery API](https://apis.io/apis/peerpush-com/peerpush-com-discovery-api/) — The Discovery API from PeerPush — 5 operation(s) for discovery.
+- [PeerPush Products API](https://apis.io/apis/peerpush-com/peerpush-com-products-api/) — The Products API from PeerPush — 3 operation(s) for products.
+- [PeerPush Taxonomy API](https://apis.io/apis/peerpush-com/peerpush-com-taxonomy-api/) — The Taxonomy API from PeerPush — 3 operation(s) for taxonomy.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PeerPush Agentic Access](https://apis.io/agentic-access/peerpush-com/peerpush-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AlternativesResult](https://apis.io/schemas/peerpush-com/peerpush-com-alternatives-result/)
+- [ComparisonResult](https://apis.io/schemas/peerpush-com/peerpush-com-comparison-result/)
+- [CreateProduct](https://apis.io/schemas/peerpush-com/peerpush-com-create-product/)
+- [CreatedProduct](https://apis.io/schemas/peerpush-com/peerpush-com-created-product/)
+- [DealProduct](https://apis.io/schemas/peerpush-com/peerpush-com-deal-product/)
+- [Product](https://apis.io/schemas/peerpush-com/peerpush-com-product/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Peerpush Com Context](https://apis.io/jsonld/peerpush-com/peerpush-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PeerPush API Rules](https://apis.io/rules/peerpush-com/peerpush-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PeerPush Authentication](https://apis.io/security/peerpush-com/peerpush-com-authentication/)
+- [PeerPush Domain Security](https://apis.io/security/peerpush-com/peerpush-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PeerPush Plans Pricing](https://apis.io/plans/peerpush-com/peerpush-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://peerpush.com/)
+- [Documentation](https://peerpush.com/api-reference)
+- [Getting started](https://peerpush.com/about)
+- [API reference](https://peerpush.com/api-reference)
+- [Pricing](https://peerpush.com/pricing)
+- [Support](https://peerpush.com/contact)
+- [Blog](https://peerpush.com/blog)
+- [Terms of service](https://peerpush.com/terms)
+- [Privacy policy](https://peerpush.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 56.3** — strong · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 57.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 59.1 |
+
+**Agent readiness 47.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/peerpush-com/](https://apis.io/providers/peerpush-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PeerPush: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/peerpush-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
